@@ -1,0 +1,11 @@
+/* 关注回复json文件，直接通过客服接口回复 */
+
+/* 文本消息 */
+
+{
+	"touser": "OPENID",
+	"msgtype": "text",
+	"text": {
+		"content": "终于等到你，点击下方图片领取钻石礼包! \ue22f\ue22f\ue22f"
+	}
+}

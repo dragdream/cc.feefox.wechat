@@ -1,0 +1,42 @@
+/*"ToUserName": "touser",    touser改成振鹏的微信*/ /* */
+
+{
+	"ToUserName": "touser",
+	"FromUserName": "fromuser",
+	"CreateTime": "1399197672",
+	"MsgType": "transfer_customer_service",
+	"TransInfo": [
+		"test1@test"
+	]
+}
+
+/* 客服列表 */
+{
+   "kf_online_list": [
+       {
+           "kf_account": "test1@test", 
+           "status": 1, 
+           "kf_id": "1001", 
+           "auto_accept": 0, 
+           "accepted_case": 1
+       },
+       {
+           "kf_account": "test2@test", 
+           "status": 1, 
+           "kf_id": "1002", 
+           "auto_accept": 0, 
+           "accepted_case": 2
+       }
+   ]
+}
+
+{
+	"touser": "oe5SXv71irmrQ0TH-JxA-z_hmYLE", 
+	"msgtype": "text", 
+	"text": {
+		"content": "您确实要购买这款产品么?"
+	}, 
+	"customservice": {
+		"kf_account": "kf001@little_shadow"
+	}
+}

@@ -1,0 +1,356 @@
+2018-08-29 09:42:39.985 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-29 09:42:39.999 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Tue Aug 28 18:20:06 CST 2018]; root of context hierarchy
+2018-08-29 09:42:40.029 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-08-29 09:42:40.031 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 09:58:26.289 [main] INFO  cc.feefox.wechat.Application - Starting Application on localhost with PID 1236 (/Users/cc/eclipse-workspace/cc.feefox.wechat/target/classes started by cc in /Users/cc/eclipse-workspace/cc.feefox.wechat)
+2018-08-29 09:58:26.294 [main] INFO  cc.feefox.wechat.Application - No active profile set, falling back to default profiles: default
+2018-08-29 09:58:26.376 [main] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 09:58:26 CST 2018]; root of context hierarchy
+2018-08-29 09:58:26.440 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-08-29 09:58:27.270 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 09:58:27.892 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$37ad1776] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-29 09:58:28.249 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-08-29 09:58:28.259 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-08-29 09:58:28.260 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-29 09:58:28.340 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-29 09:58:28.340 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1964 ms
+2018-08-29 09:58:28.464 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-29 09:58:28.470 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-29 09:58:28.471 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-29 09:58:28.471 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-29 09:58:28.471 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-29 09:58:31.964 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-29 09:58:32.071 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-29 09:58:32.073 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-08-29 09:58:32.075 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2018-08-29 09:58:32.124 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-29 09:58:32.264 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-29 09:58:32.455 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-08-29 09:58:32.520 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 09:58:33.050 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 09:58:26 CST 2018]; root of context hierarchy
+2018-08-29 09:58:33.119 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTextByOpenid],methods=[GET || POST]}" onto public cc.feefox.wechat.common.result.MassMsgResult cc.feefox.wechat.main.MessageController.sendTextByOpenid() throws java.lang.Exception
+2018-08-29 09:58:33.122 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTicketByOpenid],methods=[GET || POST]}" onto public java.lang.String cc.feefox.wechat.main.MessageController.sendTicketByOpenid(java.util.Map<java.lang.String, java.lang.String>) throws java.lang.Exception
+2018-08-29 09:58:33.123 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/template],methods=[GET || POST]}" onto public cc.feefox.wechat.template.model.resp.TemplateMsgResult cc.feefox.wechat.main.TemplateController.uploadTemplate() throws java.lang.Exception
+2018-08-29 09:58:33.124 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/handler],methods=[GET || POST]}" onto public void cc.feefox.wechat.main.WeChatController.processPost() throws java.lang.Exception
+2018-08-29 09:58:33.127 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-29 09:58:33.128 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-29 09:58:33.179 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 09:58:33.179 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 09:58:33.221 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 09:58:33.674 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-08-29 09:58:33.706 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-29 09:58:33.714 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-29 09:58:33.749 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-08-29 09:58:33.779 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-08-29 09:58:33.784 [main] INFO  cc.feefox.wechat.Application - Started Application in 7.977 seconds (JVM running for 9.119)
+2018-08-29 09:59:35.205 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-29 09:59:35.206 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 09:58:26 CST 2018]; root of context hierarchy
+2018-08-29 09:59:35.209 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-08-29 09:59:35.209 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 09:59:42.162 [main] INFO  cc.feefox.wechat.Application - Starting Application on localhost with PID 1239 (/Users/cc/eclipse-workspace/cc.feefox.wechat/target/classes started by cc in /Users/cc/eclipse-workspace/cc.feefox.wechat)
+2018-08-29 09:59:42.164 [main] INFO  cc.feefox.wechat.Application - No active profile set, falling back to default profiles: default
+2018-08-29 09:59:42.211 [main] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 09:59:42 CST 2018]; root of context hierarchy
+2018-08-29 09:59:42.316 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-08-29 09:59:43.016 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 09:59:43.865 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f9cdf5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-29 09:59:44.238 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-08-29 09:59:44.252 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-08-29 09:59:44.253 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-29 09:59:44.345 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-29 09:59:44.345 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2134 ms
+2018-08-29 09:59:44.486 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-29 09:59:44.490 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-29 09:59:44.495 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-29 09:59:44.495 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-29 09:59:44.495 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-29 09:59:47.936 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-29 09:59:48.011 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-29 09:59:48.012 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-08-29 09:59:48.013 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2018-08-29 09:59:48.051 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-29 09:59:48.160 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-29 09:59:48.322 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-08-29 09:59:48.393 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 09:59:48.931 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 09:59:42 CST 2018]; root of context hierarchy
+2018-08-29 09:59:48.992 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTextByOpenid],methods=[GET || POST]}" onto public cc.feefox.wechat.common.result.MassMsgResult cc.feefox.wechat.main.MessageController.sendTextByOpenid() throws java.lang.Exception
+2018-08-29 09:59:48.994 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTicketByOpenid],methods=[GET || POST]}" onto public java.lang.String cc.feefox.wechat.main.MessageController.sendTicketByOpenid(java.util.Map<java.lang.String, java.lang.String>) throws java.lang.Exception
+2018-08-29 09:59:48.995 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/template],methods=[GET || POST]}" onto public cc.feefox.wechat.template.model.resp.TemplateMsgResult cc.feefox.wechat.main.TemplateController.uploadTemplate() throws java.lang.Exception
+2018-08-29 09:59:48.996 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/handler],methods=[GET || POST]}" onto public void cc.feefox.wechat.main.WeChatController.processPost() throws java.lang.Exception
+2018-08-29 09:59:49.001 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-29 09:59:49.001 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-29 09:59:49.041 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 09:59:49.041 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 09:59:49.085 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 09:59:49.508 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-08-29 09:59:49.539 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-29 09:59:49.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-29 09:59:49.571 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-08-29 09:59:49.587 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-08-29 09:59:49.593 [main] INFO  cc.feefox.wechat.Application - Started Application in 7.655 seconds (JVM running for 8.299)
+2018-08-29 10:00:16.163 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-29 10:00:16.166 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 09:59:42 CST 2018]; root of context hierarchy
+2018-08-29 10:00:16.169 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-08-29 10:00:16.170 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 10:00:43.048 [main] INFO  cc.feefox.wechat.Application - Starting Application on localhost with PID 1242 (/Users/cc/eclipse-workspace/cc.feefox.wechat/target/classes started by cc in /Users/cc/eclipse-workspace/cc.feefox.wechat)
+2018-08-29 10:00:43.056 [main] INFO  cc.feefox.wechat.Application - No active profile set, falling back to default profiles: default
+2018-08-29 10:00:43.123 [main] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 10:00:43 CST 2018]; root of context hierarchy
+2018-08-29 10:00:43.198 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-08-29 10:00:43.874 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 10:00:44.634 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39a6681b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-29 10:00:45.119 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-08-29 10:00:45.130 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-08-29 10:00:45.131 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-29 10:00:45.234 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-29 10:00:45.234 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2111 ms
+2018-08-29 10:00:45.380 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-29 10:00:45.384 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-29 10:00:45.384 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-29 10:00:45.384 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-29 10:00:45.385 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-29 10:00:48.683 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-29 10:00:48.764 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-29 10:00:48.765 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-08-29 10:00:48.766 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2018-08-29 10:00:48.809 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-29 10:00:48.927 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-29 10:00:49.098 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-08-29 10:00:49.155 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 10:00:49.683 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 10:00:43 CST 2018]; root of context hierarchy
+2018-08-29 10:00:49.757 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTextByOpenid],methods=[GET || POST]}" onto public cc.feefox.wechat.common.result.MassMsgResult cc.feefox.wechat.main.MessageController.sendTextByOpenid() throws java.lang.Exception
+2018-08-29 10:00:49.758 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTicketByOpenid],methods=[GET || POST]}" onto public java.lang.String cc.feefox.wechat.main.MessageController.sendTicketByOpenid(java.util.Map<java.lang.String, java.lang.String>) throws java.lang.Exception
+2018-08-29 10:00:49.759 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/template],methods=[GET || POST]}" onto public cc.feefox.wechat.template.model.resp.TemplateMsgResult cc.feefox.wechat.main.TemplateController.uploadTemplate() throws java.lang.Exception
+2018-08-29 10:00:49.760 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/handler],methods=[GET || POST]}" onto public void cc.feefox.wechat.main.WeChatController.processPost() throws java.lang.Exception
+2018-08-29 10:00:49.764 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-29 10:00:49.764 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-29 10:00:49.806 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 10:00:49.806 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 10:00:49.844 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 10:00:50.287 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-08-29 10:00:50.316 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-29 10:00:50.328 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-29 10:00:50.351 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-08-29 10:00:50.369 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-08-29 10:00:50.375 [main] INFO  cc.feefox.wechat.Application - Started Application in 7.587 seconds (JVM running for 8.229)
+2018-08-29 10:01:06.180 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-29 10:01:06.180 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 10:00:43 CST 2018]; root of context hierarchy
+2018-08-29 10:01:06.206 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-08-29 10:01:06.207 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 10:01:22.483 [main] INFO  cc.feefox.wechat.Application - Starting Application on localhost with PID 1244 (/Users/cc/eclipse-workspace/cc.feefox.wechat/target/classes started by cc in /Users/cc/eclipse-workspace/cc.feefox.wechat)
+2018-08-29 10:01:22.484 [main] INFO  cc.feefox.wechat.Application - No active profile set, falling back to default profiles: default
+2018-08-29 10:01:22.522 [main] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 10:01:22 CST 2018]; root of context hierarchy
+2018-08-29 10:01:22.662 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-08-29 10:01:23.228 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 10:01:23.891 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2b26562] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-29 10:01:24.222 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-08-29 10:01:24.233 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-08-29 10:01:24.234 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-29 10:01:24.333 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-29 10:01:24.333 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1811 ms
+2018-08-29 10:01:24.474 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-29 10:01:24.478 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-29 10:01:24.478 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-29 10:01:24.478 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-29 10:01:24.478 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-29 10:01:28.548 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-29 10:01:28.629 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-29 10:01:28.630 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-08-29 10:01:28.633 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2018-08-29 10:01:28.668 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-29 10:01:28.776 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-29 10:01:28.943 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-08-29 10:01:29.000 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 10:01:29.510 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 10:01:22 CST 2018]; root of context hierarchy
+2018-08-29 10:01:29.577 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTextByOpenid],methods=[GET || POST]}" onto public cc.feefox.wechat.common.result.MassMsgResult cc.feefox.wechat.main.MessageController.sendTextByOpenid() throws java.lang.Exception
+2018-08-29 10:01:29.579 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTicketByOpenid],methods=[GET || POST]}" onto public java.lang.String cc.feefox.wechat.main.MessageController.sendTicketByOpenid(java.util.Map<java.lang.String, java.lang.String>) throws java.lang.Exception
+2018-08-29 10:01:29.580 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/template],methods=[GET || POST]}" onto public cc.feefox.wechat.template.model.resp.TemplateMsgResult cc.feefox.wechat.main.TemplateController.uploadTemplate() throws java.lang.Exception
+2018-08-29 10:01:29.581 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/handler],methods=[GET || POST]}" onto public void cc.feefox.wechat.main.WeChatController.processPost() throws java.lang.Exception
+2018-08-29 10:01:29.585 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-29 10:01:29.586 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-29 10:01:29.629 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 10:01:29.629 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 10:01:29.672 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 10:01:30.159 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-08-29 10:01:30.187 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-29 10:01:30.197 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-29 10:01:30.216 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-08-29 10:01:30.234 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-08-29 10:01:30.240 [main] INFO  cc.feefox.wechat.Application - Started Application in 7.968 seconds (JVM running for 8.582)
+2018-08-29 10:02:04.762 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-29 10:02:04.762 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 10:01:22 CST 2018]; root of context hierarchy
+2018-08-29 10:02:04.767 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-08-29 10:02:04.767 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 10:02:21.300 [main] INFO  cc.feefox.wechat.Application - Starting Application on localhost with PID 1245 (/Users/cc/eclipse-workspace/cc.feefox.wechat/target/classes started by cc in /Users/cc/eclipse-workspace/cc.feefox.wechat)
+2018-08-29 10:02:21.302 [main] INFO  cc.feefox.wechat.Application - No active profile set, falling back to default profiles: default
+2018-08-29 10:02:21.343 [main] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 10:02:21 CST 2018]; root of context hierarchy
+2018-08-29 10:02:21.460 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-08-29 10:02:22.157 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 10:02:22.783 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a1ba6ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-29 10:02:23.112 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-08-29 10:02:23.123 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-08-29 10:02:23.124 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-29 10:02:23.225 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-29 10:02:23.225 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1882 ms
+2018-08-29 10:02:23.376 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-29 10:02:23.379 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-29 10:02:23.380 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-29 10:02:23.380 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-29 10:02:23.380 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-29 10:02:26.643 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-29 10:02:26.719 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-29 10:02:26.721 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-08-29 10:02:26.722 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2018-08-29 10:02:26.760 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-29 10:02:26.894 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-29 10:02:27.083 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-08-29 10:02:27.140 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 10:02:27.754 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 10:02:21 CST 2018]; root of context hierarchy
+2018-08-29 10:02:27.845 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTextByOpenid],methods=[GET || POST]}" onto public cc.feefox.wechat.common.result.MassMsgResult cc.feefox.wechat.main.MessageController.sendTextByOpenid() throws java.lang.Exception
+2018-08-29 10:02:27.847 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTicketByOpenid],methods=[GET || POST]}" onto public java.lang.String cc.feefox.wechat.main.MessageController.sendTicketByOpenid(java.util.Map<java.lang.String, java.lang.String>) throws java.lang.Exception
+2018-08-29 10:02:27.849 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/template],methods=[GET || POST]}" onto public cc.feefox.wechat.template.model.resp.TemplateMsgResult cc.feefox.wechat.main.TemplateController.uploadTemplate() throws java.lang.Exception
+2018-08-29 10:02:27.851 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/handler],methods=[GET || POST]}" onto public void cc.feefox.wechat.main.WeChatController.processPost() throws java.lang.Exception
+2018-08-29 10:02:27.855 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-29 10:02:27.856 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-29 10:02:27.916 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 10:02:27.916 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 10:02:27.970 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 10:02:28.477 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-08-29 10:02:28.514 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-29 10:02:28.528 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-29 10:02:28.554 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-08-29 10:02:28.574 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-08-29 10:02:28.583 [main] INFO  cc.feefox.wechat.Application - Started Application in 7.522 seconds (JVM running for 8.223)
+2018-08-29 10:02:50.137 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-29 10:02:50.137 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 10:02:21 CST 2018]; root of context hierarchy
+2018-08-29 10:02:50.141 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-08-29 10:02:50.142 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 11:16:55.234 [main] INFO  cc.feefox.wechat.Application - Starting Application on localhost with PID 729 (/Users/cc/eclipse-workspace/cc.feefox.wechat/target/classes started by cc in /Users/cc/eclipse-workspace/cc.feefox.wechat)
+2018-08-29 11:16:55.242 [main] INFO  cc.feefox.wechat.Application - No active profile set, falling back to default profiles: default
+2018-08-29 11:16:55.306 [main] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 11:16:55 CST 2018]; root of context hierarchy
+2018-08-29 11:16:55.391 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-08-29 11:16:56.005 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 11:16:56.739 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5d2cb3b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-29 11:16:57.120 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-08-29 11:16:57.132 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-08-29 11:16:57.133 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-29 11:16:57.221 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-29 11:16:57.221 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1915 ms
+2018-08-29 11:16:57.398 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-29 11:16:57.403 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-29 11:16:57.403 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-29 11:16:57.403 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-29 11:16:57.404 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-29 11:17:01.039 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-29 11:17:01.108 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-29 11:17:01.109 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-08-29 11:17:01.110 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2018-08-29 11:17:01.141 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-29 11:17:01.243 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-29 11:17:01.389 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-08-29 11:17:01.454 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 11:17:02.043 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 11:16:55 CST 2018]; root of context hierarchy
+2018-08-29 11:17:02.148 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTextByOpenid],methods=[GET || POST]}" onto public cc.feefox.wechat.common.result.MassMsgResult cc.feefox.wechat.main.MessageController.sendTextByOpenid() throws java.lang.Exception
+2018-08-29 11:17:02.150 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTicketByOpenid],methods=[GET || POST]}" onto public java.lang.String cc.feefox.wechat.main.MessageController.sendTicketByOpenid(java.util.Map<java.lang.String, java.lang.String>) throws java.lang.Exception
+2018-08-29 11:17:02.151 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/template],methods=[GET || POST]}" onto public cc.feefox.wechat.template.model.resp.TemplateMsgResult cc.feefox.wechat.main.TemplateController.uploadTemplate() throws java.lang.Exception
+2018-08-29 11:17:02.152 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/handler],methods=[GET || POST]}" onto public void cc.feefox.wechat.main.WeChatController.processPost() throws java.lang.Exception
+2018-08-29 11:17:02.157 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-29 11:17:02.157 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-29 11:17:02.201 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 11:17:02.201 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 11:17:02.255 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 11:17:02.795 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-08-29 11:17:02.820 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-29 11:17:02.830 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-29 11:17:02.850 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-08-29 11:17:02.873 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-08-29 11:17:02.879 [main] INFO  cc.feefox.wechat.Application - Started Application in 7.927 seconds (JVM running for 9.059)
+2018-08-29 11:19:11.175 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-29 11:19:11.175 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 11:16:55 CST 2018]; root of context hierarchy
+2018-08-29 11:19:11.185 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-08-29 11:19:11.186 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 11:20:05.949 [main] INFO  cc.feefox.wechat.Application - Starting Application on localhost with PID 734 (/Users/cc/eclipse-workspace/cc.feefox.wechat/target/classes started by cc in /Users/cc/eclipse-workspace/cc.feefox.wechat)
+2018-08-29 11:20:05.950 [main] INFO  cc.feefox.wechat.Application - No active profile set, falling back to default profiles: default
+2018-08-29 11:20:06.044 [main] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 11:20:06 CST 2018]; root of context hierarchy
+2018-08-29 11:20:06.047 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-08-29 11:20:06.700 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 11:20:07.389 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1d286883] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-29 11:20:07.722 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-08-29 11:20:07.734 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-08-29 11:20:07.735 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-29 11:20:07.807 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-29 11:20:07.808 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1764 ms
+2018-08-29 11:20:07.963 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-29 11:20:07.967 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-29 11:20:07.968 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-29 11:20:07.968 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-29 11:20:07.968 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-29 11:20:11.709 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-29 11:20:11.787 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-29 11:20:11.788 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-08-29 11:20:11.789 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2018-08-29 11:20:11.821 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-29 11:20:11.932 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-29 11:20:12.072 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-08-29 11:20:12.143 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 11:20:12.850 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 11:20:06 CST 2018]; root of context hierarchy
+2018-08-29 11:20:12.930 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTextByOpenid],methods=[GET || POST]}" onto public cc.feefox.wechat.common.result.MassMsgResult cc.feefox.wechat.main.MessageController.sendTextByOpenid() throws java.lang.Exception
+2018-08-29 11:20:12.932 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTicketByOpenid],methods=[GET || POST]}" onto public java.lang.String cc.feefox.wechat.main.MessageController.sendTicketByOpenid(java.util.Map<java.lang.String, java.lang.String>) throws java.lang.Exception
+2018-08-29 11:20:12.933 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/template],methods=[GET || POST]}" onto public cc.feefox.wechat.template.model.resp.TemplateMsgResult cc.feefox.wechat.main.TemplateController.uploadTemplate() throws java.lang.Exception
+2018-08-29 11:20:12.937 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/handler],methods=[GET || POST]}" onto public void cc.feefox.wechat.main.WeChatController.processPost() throws java.lang.Exception
+2018-08-29 11:20:12.941 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-29 11:20:12.941 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-29 11:20:12.995 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 11:20:12.995 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 11:20:13.081 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 11:20:13.596 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-08-29 11:20:13.621 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-29 11:20:13.634 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-29 11:20:13.654 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-08-29 11:20:13.672 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-08-29 11:20:13.678 [main] INFO  cc.feefox.wechat.Application - Started Application in 7.994 seconds (JVM running for 8.771)
+2018-08-29 11:25:54.848 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-29 11:25:54.849 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 11:20:06 CST 2018]; root of context hierarchy
+2018-08-29 11:25:54.853 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-08-29 11:25:54.855 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 11:28:58.074 [main] INFO  cc.feefox.wechat.Application - Starting Application on localhost with PID 788 (/Users/cc/eclipse-workspace/cc.feefox.wechat/target/classes started by cc in /Users/cc/eclipse-workspace/cc.feefox.wechat)
+2018-08-29 11:28:58.085 [main] INFO  cc.feefox.wechat.Application - No active profile set, falling back to default profiles: default
+2018-08-29 11:28:58.142 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-08-29 11:28:58.168 [main] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 11:28:58 CST 2018]; root of context hierarchy
+2018-08-29 11:28:58.848 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 11:28:59.500 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a1ba6ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-29 11:28:59.840 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2018-08-29 11:28:59.851 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-08-29 11:28:59.852 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-08-29 11:28:59.934 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-29 11:28:59.934 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1766 ms
+2018-08-29 11:29:00.064 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-29 11:29:00.068 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-29 11:29:00.069 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-29 11:29:00.069 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-29 11:29:00.069 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-29 11:29:03.827 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-29 11:29:03.904 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-29 11:29:03.905 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-08-29 11:29:03.906 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2018-08-29 11:29:03.949 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-29 11:29:04.054 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-29 11:29:04.215 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-08-29 11:29:04.283 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 11:29:04.795 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 11:28:58 CST 2018]; root of context hierarchy
+2018-08-29 11:29:04.856 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTextByOpenid],methods=[GET || POST]}" onto public cc.feefox.wechat.common.result.MassMsgResult cc.feefox.wechat.main.MessageController.sendTextByOpenid() throws java.lang.Exception
+2018-08-29 11:29:04.859 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/sendTicketByOpenid],methods=[GET || POST]}" onto public java.lang.String cc.feefox.wechat.main.MessageController.sendTicketByOpenid(java.util.Map<java.lang.String, java.lang.String>) throws java.lang.Exception
+2018-08-29 11:29:04.860 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/template],methods=[GET || POST]}" onto public cc.feefox.wechat.template.model.resp.TemplateMsgResult cc.feefox.wechat.main.TemplateController.uploadTemplate() throws java.lang.Exception
+2018-08-29 11:29:04.861 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/wechat/handler],methods=[GET || POST]}" onto public void cc.feefox.wechat.main.WeChatController.processPost() throws java.lang.Exception
+2018-08-29 11:29:04.865 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-29 11:29:04.865 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-29 11:29:04.900 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 11:29:04.901 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 11:29:04.938 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-29 11:29:05.400 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-08-29 11:29:05.428 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-29 11:29:05.436 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-08-29 11:29:05.453 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-08-29 11:29:05.468 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2018-08-29 11:29:05.473 [main] INFO  cc.feefox.wechat.Application - Started Application in 7.771 seconds (JVM running for 8.552)
+2018-08-29 11:30:59.630 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-29 11:30:59.630 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b0b0854: startup date [Wed Aug 29 11:28:58 CST 2018]; root of context hierarchy
+2018-08-29 11:30:59.634 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-08-29 11:30:59.635 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'

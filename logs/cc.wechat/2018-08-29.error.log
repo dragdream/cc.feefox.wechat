@@ -1,0 +1,8 @@
+2018-08-29 09:58:27.270 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 09:59:43.016 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 10:00:43.874 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 10:01:23.228 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 10:02:22.157 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 11:16:56.005 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 11:20:06.700 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.
+2018-08-29 11:28:58.848 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cc.feefox.wechat]' package. Please check your configuration.

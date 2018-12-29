@@ -1,0 +1,13 @@
+/* 小程序卡片 */
+
+{
+    "touser":"OPENID",
+    "msgtype":"miniprogrampage",
+    "miniprogrampage":
+    {
+        "title":"钻石礼包，点击领取",
+        "appid":"wxf53382e284059f74",
+        "pagepath":"https://h5game.feefox.cn",
+        "thumb_media_id":"6ogzp2QleC4hxbMKNAZUDBzDxksWWpHuACnvGhPpoEA"
+    }
+}
